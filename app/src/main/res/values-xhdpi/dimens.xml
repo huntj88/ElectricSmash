@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">21sp</dimen>
+    <integer name="bar">15</integer>
+    <integer name="fallSpeed">14</integer>
+    <integer name="time">22500000</integer>
+    <item name="buttonSize" format="float" type="dimen">1.25</item>
+    <item name="sc2" format="float" type="dimen">3.25</item>
+    <integer name="flashSpeed">250</integer>
+</resources>

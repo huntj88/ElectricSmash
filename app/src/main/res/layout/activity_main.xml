@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/es_bg">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/es_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:id="@+id/resume"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:src="@drawable/resumegamebtn"
+        android:onClick="resume"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:id="@+id/start"
+        android:src="@drawable/startgamebtn"
+        android:onClick="start"
+        android:layout_below="@+id/resume"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="78dp"
+        android:layout_height="60dp"
+        android:id="@+id/mute"
+        android:src="@drawable/mutebtn"
+        android:onClick="mute"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/start"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Loading..."
+        android:id="@+id/textView"
+        android:layout_above="@+id/resume"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:visibility="invisible" />
+
+
+
+</RelativeLayout>
+<!--<Button
+android:onClick="purchase"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="New Button"
+android:id="@+id/button"
+android:layout_below="@+id/leader"
+android:layout_alignParentRight="true"
+android:layout_alignParentEnd="true" />-->

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Theme.AppCompat.Light.DarkActionBar Base application theme.Theme.Black.NoTitleBar Android -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
+
